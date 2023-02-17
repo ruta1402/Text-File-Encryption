@@ -7,7 +7,7 @@ password="b.ghanchi"
 
 
 def login():
-    user=input("Username : ")
+    user=input("\nUsername : ")
     passw=input("Password : ")
     
     if user==username and passw==password:
@@ -17,18 +17,17 @@ def login():
 
 def main():
     while (True):
-        choice=int(input("1. Login\n0. Exit\n"))
+        choice=int(input("1. Login\n0. Exit\n\tEnter choice - "))
         if choice==1:
             if login():
-                print("Successful login")
                 generateAKey.gen_key()
                 encryptFile.encryp()
                 decryptFile.decryp()
             else:
-                print("Login again")
+                print("\nInvalid login")
                 continue
         elif choice==0:
-            print("Thank you")
+            print("Thank you!")
             break
 
 if __name__=="__main__":

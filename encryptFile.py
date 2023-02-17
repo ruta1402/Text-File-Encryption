@@ -6,7 +6,8 @@ def encryp():
 
     # 2) Read data from file
     data = ''
-    with open('toBeSecret.txt', 'rb') as file:
+    filename=input("\nEnter file name - ")  #'toBeSecret.txt'
+    with open(filename, 'rb') as file:
         data = file.read()
 
     # 3) Encrypt data
@@ -18,5 +19,5 @@ def encryp():
 
 
     # 4) Save the encrypted data into a file
-    with open('myTopSecretInfo.txt', 'wb') as file:
+    with open('encrypted_file.txt', 'wb') as file:
         file.write(encryptedData)

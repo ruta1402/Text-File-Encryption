@@ -7,7 +7,7 @@ def decryp():
 
     # 2) Read the encrypted data from file
     encryptedData = ''
-    with open('myTopSecretInfo.txt', 'rb') as file:
+    with open('encrypted_file.txt', 'rb') as file:
         encryptedData = file.read()
 
     # 3) Decrypt the data
@@ -16,8 +16,6 @@ def decryp():
     f = Fernet(key)
 
     decryptedData = f.decrypt(encryptedData)
-
-
 
     print('Encrypted data:', encryptedData.decode())
 
