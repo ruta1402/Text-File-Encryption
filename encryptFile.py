@@ -1,7 +1,7 @@
 def encryp():
     # 1) Read key from file
     key = ''
-    with open('myTopSecretKey.key', 'rb') as file:
+    with open('SecretKey.key', 'rb') as file:
         key = file.read()
 
     # 2) Read data from file

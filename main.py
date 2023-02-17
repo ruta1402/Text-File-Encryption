@@ -1,9 +1,10 @@
 import encryptFile
 import decryptFile
 import generateAKey
+import os
 
-username="b.ghanchi"
-password="b.ghanchi"
+username="abcd"
+password="kjsce"
 
 
 def login():
@@ -28,6 +29,8 @@ def main():
                 continue
         elif choice==0:
             print("Thank you!")
+            os.remove('encrypted_file.txt')
+            os.remove('SecretKey.key')
             break
 
 if __name__=="__main__":

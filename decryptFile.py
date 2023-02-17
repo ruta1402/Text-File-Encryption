@@ -1,8 +1,9 @@
+
 def decryp():
         
     # 1) Read the key from file
     key = ''
-    with open('myTopSecretKey.key', 'rb') as file:
+    with open('SecretKey.key', 'rb') as file:
         key = file.read()
 
     # 2) Read the encrypted data from file
@@ -22,3 +23,5 @@ def decryp():
     print()
 
     print('Decrypted data:', decryptedData.decode())
+
+
