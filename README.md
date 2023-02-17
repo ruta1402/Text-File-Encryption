@@ -14,3 +14,10 @@ We will use the cryptography library in python to encrypt a file. The cryptograp
 - [Saikrishna Karra](https://github.com/Simplifier779) 16010120075
 - [Ruta Kulkarni](https://github.com/ruta1402) 16010120081
 - [Bhavik Naik](https://github.com/BhavikNaik) 16010120087 
+
+
+<img width="600" alt="1" src="https://user-images.githubusercontent.com/72610095/219694140-6042f870-2613-47fa-bb00-3b0b0fbc67df.png">
+<img width="546" alt="2" src="https://user-images.githubusercontent.com/72610095/219694146-250618a2-213e-4543-ae6d-542a3b09a25d.png">
+<img width="403" alt="3" src="https://user-images.githubusercontent.com/72610095/219694150-c9057dd6-6f0e-4bdd-870a-21499e90c763.png">
+<img width="850" alt="4" src="https://user-images.githubusercontent.com/72610095/219694154-88e494cd-45ae-496d-82d2-933d30444661.png">
+<img width="241" alt="5" src="https://user-images.githubusercontent.com/72610095/219694158-d55d5916-cd17-485a-b85d-1f4e61a5ba26.png">
