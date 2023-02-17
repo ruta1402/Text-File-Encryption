@@ -18,7 +18,7 @@ def login():
 
 def main():
     while (True):
-        choice=int(input("1. Login\n0. Exit\n\tEnter choice - "))
+        choice=int(input("\n1. Login\n0. Exit\n\tEnter choice - "))
         if choice==1:
             if login():
                 generateAKey.gen_key()
